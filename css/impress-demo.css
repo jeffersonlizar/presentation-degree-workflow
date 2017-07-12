@@ -19,7 +19,6 @@
     Shall we begin?
 */
 
-
 /*
     We start with a good ol' reset.
     That's the one by Eric Meyer http://meyerweb.com/eric/tools/css/reset/
@@ -54,15 +53,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
@@ -88,17 +91,22 @@ body {
     background: rgb(215, 215, 215);
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
     background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 }
 
 /*
     Now let's bring some text styles back ...
 */
-b, strong { font-weight: bold }
-i, em { font-style: italic }
+b, strong {
+    font-weight: bold
+}
+
+i, em {
+    font-style: italic
+}
 
 /*
     ... and give links a nice look.
@@ -107,21 +115,21 @@ a {
     color: inherit;
     text-decoration: none;
     padding: 0 0.1em;
-    background: rgba(255,255,255,0.5);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
+    background: rgba(255, 255, 255, 0.5);
+    text-shadow: -1px -1px 2px rgba(100, 100, 100, 0.9);
     border-radius: 0.2em;
 
     -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 a:hover,
 a:focus {
-    background: rgba(255,255,255,1);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+    background: rgba(255, 255, 255, 1);
+    text-shadow: -1px -1px 2px rgba(100, 100, 100, 0.5);
 }
 
 /*
@@ -162,118 +170,135 @@ a:focus {
 
     We start with basics to make sure it displays correctly in everywhere ...
 */
-#portada{
-	color:black;
-	text-align:center;
-	font-size:22px;
-}
-#portada img{
-	position:absolute;
-	left:100px;
-	width:120px;
-}
-.titulo{
-	margin: 3em 0 0.3em;
-}
-.subtitulo{
-	margin: 0 0 2em 0;
-}
-.derecho{
-	text-align:right;
-}
-.izquierdo{
-	text-align:left;
-}
-.justificar{
-	text-align:justify;	
-}
-.fecha{
-	margin-top:1em;
-}
-#planteamiento, #justificacion{
-	text-align:center;
-}
-#planteamiento img{
-	width:300px;
-	height:300px;
+#portada {
+    color: black;
+    text-align: center;
+    font-size: 22px;
 }
 
-#justificacion img{
-    width:200px;
-    height:200px;
+#portada img {
+    position: absolute;
+    left: 100px;
+    width: 120px;
+}
+
+.titulo {
+    margin: 3em 0 0.3em;
+}
+
+.subtitulo {
+    margin: 0 0 2em 0;
+}
+
+.derecho {
+    text-align: right;
+}
+
+.izquierdo {
+    text-align: left;
+}
+
+.justificar {
+    text-align: justify;
+}
+
+.fecha {
+    margin-top: 1em;
+}
+
+#planteamiento, #justificacion {
+    text-align: center;
+}
+
+#planteamiento img {
+    width: 300px;
+    height: 300px;
+}
+
+#justificacion img {
+    width: 200px;
+    height: 200px;
     margin: 20px;
 }
 
-.justificacion-titulo{
-    margin-top:0px;
-    padding-bottom:80px;
-    text-decoration:underline;
+.justificacion-titulo {
+    margin-top: 0px;
+    padding-bottom: 80px;
+    text-decoration: underline;
     font-size: 50px;
 }
 
-#justificacion .right-arrow{
+#justificacion .right-arrow {
     width: 100px;
     height: 100px;
 }
 
-.plant-img-izq{
-	float:right;
-	margin-bottom:10px;
-}
-.plant-img-der{
-	float:left;
-	margin-bottom:10px;
-}
-#objetivo-general{
-	text-align:center;
-	
-}
-.objetivo-titulo{
-	margin-top:20px;
-	padding-bottom:20px;
-	text-decoration:underline;
+.plant-img-izq {
+    float: right;
+    margin-bottom: 10px;
 }
 
+.plant-img-der {
+    float: left;
+    margin-bottom: 10px;
+}
 
+#objetivo-general {
+    text-align: center;
 
-.objetivo-final{
-//	text-indent:1.5em;
-	line-height:60px;
-	padding-top:20px;
-	padding-bottom:280px;
 }
-#objetivos-especificos{
-	font-size:33px;
+
+.objetivo-titulo {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline;
 }
-#objetivos-especificos .izquierdo{
-	font-size:48px;	
+
+.objetivo-final {
+/ / text-indent: 1.5 em;
+    line-height: 60px;
+    padding-top: 20px;
+    padding-bottom: 280px;
 }
-#objetivos-especificos p.justificar{
-	line-height:40px;
-	margin-bottom:14px;
+
+#objetivos-especificos {
+    font-size: 33px;
 }
-#resultados-esperados{
-	text-align:center;
+
+#objetivos-especificos .izquierdo {
+    font-size: 48px;
 }
-#resultados-esperados img{
-	width:300px;
-	height:300px;	
+
+#objetivos-especificos p.justificar {
+    line-height: 40px;
+    margin-bottom: 14px;
+}
+
+#resultados-esperados {
+    text-align: center;
+}
+
+#resultados-esperados img {
+    width: 300px;
+    height: 300px;
 }
 
 #antecedentes table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 116%;
     font-size: 20px;
+    position: relative;
+    right: 68px;
 }
 
-#antecedentes table p{
+#antecedentes table p {
     margin-left: 5px;
 }
 
 #antecedentes ul.b {
     list-style-type: initial;
-    margin-left: 15px;
+    margin-left: 14px;
 }
 
 #antecedentes td, th {
@@ -286,29 +311,30 @@ a:focus {
     background-color: #dddddd;
 }
 
-.antecedentes-titulo{
-    margin-top:0px;
-    padding-bottom:20px;
+.antecedentes-titulo {
+    margin-top: 40px;
+    padding-bottom: 20px;
     text-align: center;
-    text-decoration:underline;
+    text-decoration: underline;
     font-size: 50px;
 }
 
-.bases-titulo{
-    margin-top:20px;
+.bases-titulo {
+    margin-top: 20px;
     text-align: center;
-    text-decoration:underline;
+    text-decoration: underline;
     font-size: 50px;
 }
 
-#bases-teoricas1 img{
-    width: 270px;
+#bases-teoricas1 img {
+    width: 363px;
     height: 230px;
 }
 
-#bases-teoricas1 .titulo, #bases-teoricas2 .titulo{
+#bases-teoricas1 .titulo, #bases-teoricas2 .titulo {
     font-size: 35px;
 }
+
 
 .container {
     height: auto;
@@ -327,65 +353,314 @@ a:focus {
     /* the next props are meant to keep this block independent from the other floated one */
     width: 400px;
     overflow: hidden;
-}​​
+}
 
+​​
 .bases .lista ul {
     list-style-type: circle;
 }
 
-.decision-cita{
- font-size: 24px;
+.decision-cita {
+    font-size: 24px;
+}
+
+#bases-teoricas1 .container .right{
+     width: 415px;
+}
+
+#bases-teoricas1 .container2 {
+    margin-top: -92px;
 }
 
 ul.b {
     list-style-type: square;
 }
 
-#bases-teoricas2 .bases-titulo{
-    margin-top: 0px;
-}
-
-#bases-teoricas2 .titulo{
+#bases-teoricas2 .container ul.b {
+    margin-left: 60px;
+    list-style-type: circle;
     font-size: 35px;
 }
 
-#bases-teoricas2 img{
+#bases-teoricas2 .imagen {
+    text-align: center;
+}
+
+#bases-teoricas2 .imagen img{
+    width: 400px;
+    height: 200px;
+}
+
+#bases-teoricas3 .bases-titulo {
+    margin-top: 0px;
+}
+
+#bases-teoricas3 .titulo {
+    font-size: 35px;
+}
+
+#bases-teoricas3 img {
     width: 350px;
     height: 270px;
 }
 
-#bases-teoricas2 .container .right2{
+#bases-teoricas3 .container .right2 {
     top: 90px;
     left: 185px;
     position: relative;
 }
 
-#bases-teoricas2 .align-center{
+#bases-teoricas3 .align-center {
     text-align: center;
 }
 
-.metodologia-titulo{
-    margin-top:20px;
-    text-align: center;
-    text-decoration:underline;
-    font-size: 50px;
+#bases-teoricas4 img {
+    width: 363px;
+    height: 230px;
 }
 
-.metodologia-subtitulo{
-    margin-top:50px;
-    text-align: left;
-    text-decoration:underline;
+#bases-teoricas4 .titulo, #bases-teoricas2 .titulo {
     font-size: 35px;
 }
 
+#bases-teoricas4 .container .right{
+    width: 415px;
+}
+
+#bases-teoricas5 img{
+    width: 150px;
+    height: 150px;
+}
+
+#bases-teoricas5 .content-first .title {
+    margin-top: 20px;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#bases-teoricas5 .content-first .content {
+    font-size: 33px;
+}
+
+#bases-teoricas5 .content-first .content ul.b li {
+    margin-left: 40px;
+    line-height: 55px;
+}
+
+#bases-teoricas5 .content-second{
+    margin-top: -120px;
+}
+
+#bases-teoricas5 .content-second .title {
+    margin-top: 20px;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#bases-teoricas5 .content-second .content {
+    font-size: 33px;
+}
+
+#bases-teoricas5 .content-second .content ul.b li {
+    margin-left: 40px;
+    line-height: 55px;
+}
+
+#bases-teoricas5 img.img1{
+    position: relative;
+    bottom: 200px;
+    left: 750px;
+}
+
+#bases-teoricas5 img.img2{
+    position: relative;
+    bottom: 200px;
+    left: 400px;
+}
+
+#bases-teoricas5 img.img3{
+     position: relative;
+     bottom: 0px;
+     left: 350px;
+}
+
+#bases-teoricas5 img.img4{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+
+#bases-teoricas4 .container2 {
+    margin-top: -92px;
+}
+
+.metodologia-titulo1 {
+    text-align: left;
+    margin-bottom: -20px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.metodologia-titulo2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: -15px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.metodologia-subtitulo {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+#metodologia1 .referencia1 {
+    width: 400px;
+    position: relative;
+    top: 0px;
+    float: right;
+    font-size: 18px;
+}
+
+#metodologia1 .referencia2 {
+    position: relative;
+    left: 300px;
+    font-size: 18px;
+}
+
+#metodologia1 .contenido-secundario {
+    width: 400px;
+    position: relative;
+    top: 40px;
+    float: right;
+}
+
+#metodologia1 .imagen img {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: -300px;
+    right: 60px;
+
+}
+
+#metodologia2 .imagen img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    bottom: 500px;
+    left: 450px;
+
+}
+
+#metodologia2 .metodologia-subtitulo {
+    font-size: 45px;
+}
+
+#metodologia2 ul.b li {
+    line-height: 50px;
+}
+
+#metodologia2 .referencia {
+    position: relative;
+    left: 500px;
+    font-size: 25px;
+}
+
+#metodologia3 .titulo {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#metodologia3 ol.b li {
+    line-height: 45px;
+}
+
+#capas .titulo, #arquitectura .titulo, #clases .titulo, #diagramabd1 .titulo, #diagramabd2 .titulo , #implementacion .titulo {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#capas .imagen, #arquitectura .imagen, #clases .imagen, #diagramabd1 .imagen, #diagramabd2 .imagen , #implementacion .imagen, #sistema .imagen, #conclusiones .imagen  {
+    text-align: center;
+}
+
+#capas .imagen img, #arquitectura .imagen img, #clases .imagen img, #diagramabd1 .imagen img, #diagramabd2 .imagen img{
+    width: 900px;
+    height: 600px;
+    position: relative;
+    right: 52px;
+}
+
+#implementacion .imagen img{
+    width: 900px;
+    height: 500px;
+    position: relative;
+    right: 52px;
+}
+
+#diagramabd1 .referencia, #diagramabd2 .referencia, #implementacion .referencia {
+    text-align: center;
+    font-size: 25px;
+}
+
+#sistema .titulo {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#sistema .titulo2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+#sistema .imagen img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 20px;
+}
+
+.conclusiones-titulo {
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#conclusiones ul.b li {
+    line-height: 45px;
+}
+
+#recomendaciones ul.b li {
+    line-height: 40px;
+}
 /*-------------------------------------------------*/
 
 #resultados-esperados p {
     -webkit-transform-style: preserve-3d;
-    -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
-    -ms-transform-style:     preserve-3d;
-    -o-transform-style:      preserve-3d;
-    transform-style:         preserve-3d;
+    -moz-transform-style: preserve-3d; /* Y U need this Firefox?! */
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 /*
@@ -397,79 +672,78 @@ ul.b {
 #resultados-esperados span,
 #resultados-esperados b {
     display: inline-block;
-	
+
     -webkit-transform: translateZ(40px);
-    -moz-transform:    translateZ(40px);
-    -ms-transform:     translateZ(40px);
-    -o-transform:      translateZ(40px);
-     transform:        translateZ(40px);
+    -moz-transform: translateZ(40px);
+    -ms-transform: translateZ(40px);
+    -o-transform: translateZ(40px);
+    transform: translateZ(40px);
 
     -webkit-transition: 5s;
-    -moz-transition:    5s;
-    -ms-transition:     5s;
-    -o-transition:      5s;
-    transition:         5s;
+    -moz-transition: 5s;
+    -ms-transition: 5s;
+    -o-transition: 5s;
+    transition: 5s;
 }
 
 #resultados-esperados .have {
     -webkit-transform: translateZ(-140px);
-    -moz-transform:    translateZ(-140px);
-    -ms-transform:     translateZ(-140px);
-    -o-transform:      translateZ(-140px);
-    transform:         translateZ(-140px);
+    -moz-transform: translateZ(-140px);
+    -ms-transform: translateZ(-140px);
+    -o-transform: translateZ(-140px);
+    transform: translateZ(-140px);
 }
 
 #resultados-esperados .you {
     -webkit-transform: translateZ(120px);
-    -moz-transform:    translateZ(120px);
-    -ms-transform:     translateZ(120px);
-    -o-transform:      translateZ(120px);
-    transform:         translateZ(120px);
+    -moz-transform: translateZ(120px);
+    -ms-transform: translateZ(120px);
+    -o-transform: translateZ(120px);
+    transform: translateZ(120px);
 }
 
 #resultados-esperados .noticed {
     -webkit-transform: translateZ(-340px);
-    -moz-transform:    translateZ(-340px);
-    -ms-transform:     translateZ(-340px);
-    -o-transform:      translateZ(-340px);
-    transform:         translateZ(-340px);
+    -moz-transform: translateZ(-340px);
+    -ms-transform: translateZ(-340px);
+    -o-transform: translateZ(-340px);
+    transform: translateZ(-340px);
 }
 
 #resultados-esperados .its {
     -webkit-transform: translateZ(60px);
-    -moz-transform:    translateZ(60px);
-    -ms-transform:     translateZ(60px);
-    -o-transform:      translateZ(60px);
-    transform:         translateZ(60px);
+    -moz-transform: translateZ(60px);
+    -ms-transform: translateZ(60px);
+    -o-transform: translateZ(60px);
+    transform: translateZ(60px);
 }
 
 #resultados-esperados .in {
     -webkit-transform: translateZ(-10px);
-    -moz-transform:    translateZ(-10px);
-    -ms-transform:     translateZ(-10px);
-    -o-transform:      translateZ(-10px);
-    transform:         translateZ(-10px);
+    -moz-transform: translateZ(-10px);
+    -ms-transform: translateZ(-10px);
+    -o-transform: translateZ(-10px);
+    transform: translateZ(-10px);
 }
 
 #resultados-esperados .footnote {
     font-size: 32px;
 
     -webkit-transform: translateZ(-10px);
-    -moz-transform:    translateZ(-10px);
-    -ms-transform:     translateZ(-10px);
-    -o-transform:      translateZ(-10px);
-    transform:         translateZ(-10px);
+    -moz-transform: translateZ(-10px);
+    -ms-transform: translateZ(-10px);
+    -o-transform: translateZ(-10px);
+    transform: translateZ(-10px);
 }
 
 #resultados-esperados.present span,
 #resultados-esperados.present b {
     -webkit-transform: translateZ(0px);
-    -moz-transform:    translateZ(0px);
-    -ms-transform:     translateZ(0px);
-    -o-transform:      translateZ(0px);
-    transform:         translateZ(0px);
+    -moz-transform: translateZ(0px);
+    -ms-transform: translateZ(0px);
+    -o-transform: translateZ(0px);
+    transform: translateZ(0px);
 }
-
 
 /* ---------------------------------------------- */
 
@@ -480,10 +754,10 @@ ul.b {
     margin: 20px auto;
 
     -webkit-box-sizing: border-box;
-    -moz-box-sizing:    border-box;
-    -ms-box-sizing:     border-box;
-    -o-box-sizing:      border-box;
-    box-sizing:         border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
 
     font-family: 'PT Serif', georgia, serif;
     font-size: 48px;
@@ -500,13 +774,15 @@ ul.b {
     opacity: 0.3;
 
     -webkit-transition: opacity 1s;
-    -moz-transition:    opacity 1s;
-    -ms-transition:     opacity 1s;
-    -o-transition:      opacity 1s;
-    transition:         opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
 }
 
-.impress-enabled .step.active { opacity: 1 }
+.impress-enabled .step.active {
+    opacity: 1
+}
 
 /*
     These 'slide' step styles were heavily inspired by HTML5 Slides:
@@ -539,7 +815,7 @@ ul.b {
 
 .slide q {
     display: block;
-	
+
     font-size: 50px;
     line-height: 72px;
 
@@ -572,20 +848,20 @@ ul.b {
     left: 1.5em;
 
     -webkit-transform: translateZ(20px);
-    -moz-transform:    translateZ(20px);
-    -ms-transform:     translateZ(20px);
-    -o-transform:      translateZ(20px);
-    transform:         translateZ(20px);
+    -moz-transform: translateZ(20px);
+    -ms-transform: translateZ(20px);
+    -o-transform: translateZ(20px);
+    transform: translateZ(20px);
 }
 
 #title h1 {
     font-size: 190px;
 
     -webkit-transform: translateZ(50px);
-    -moz-transform:    translateZ(50px);
-    -ms-transform:     translateZ(50px);
-    -o-transform:      translateZ(50px);
-    transform:         translateZ(50px);
+    -moz-transform: translateZ(50px);
+    -ms-transform: translateZ(50px);
+    -o-transform: translateZ(50px);
+    transform: translateZ(50px);
 }
 
 #title .footnote {
@@ -627,7 +903,9 @@ ul.b {
 /*
     This step has some animated text ...
 */
-#ing { width: 500px }
+#ing {
+    width: 500px
+}
 
 /*
     ... so we define display to `inline-block` to enable transforms and
@@ -636,10 +914,10 @@ ul.b {
 #ing b {
     display: inline-block;
     -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 /*
@@ -648,10 +926,10 @@ ul.b {
 */
 #ing.present .positioning {
     -webkit-transform: translateY(-10px);
-    -moz-transform:    translateY(-10px);
-    -ms-transform:     translateY(-10px);
-    -o-transform:      translateY(-10px);
-    transform:         translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
 /*
@@ -659,16 +937,16 @@ ul.b {
 */
 #ing.present .rotating {
     -webkit-transform: rotate(-10deg);
-    -moz-transform:    rotate(-10deg);
-    -ms-transform:     rotate(-10deg);
-    -o-transform:      rotate(-10deg);
-    transform:         rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 
     -webkit-transition-delay: 0.25s;
-    -moz-transition-delay:    0.25s;
-    -ms-transition-delay:     0.25s;
-    -o-transition-delay:      0.25s;
-    transition-delay:         0.25s;
+    -moz-transition-delay: 0.25s;
+    -ms-transition-delay: 0.25s;
+    -o-transition-delay: 0.25s;
+    transition-delay: 0.25s;
 }
 
 /*
@@ -676,16 +954,16 @@ ul.b {
 */
 #ing.present .scaling {
     -webkit-transform: scale(0.7);
-    -moz-transform:    scale(0.7);
-    -ms-transform:     scale(0.7);
-    -o-transform:      scale(0.7);
-    transform:         scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
 
     -webkit-transition-delay: 0.5s;
-    -moz-transition-delay:    0.5s;
-    -ms-transition-delay:     0.5s;
-    -o-transition-delay:      0.5s;
-    transition-delay:         0.5s;
+    -moz-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    transition-delay: 0.5s;
 }
 
 /*
@@ -733,12 +1011,12 @@ ul.b {
     which behaviour is correct as 3D transforms spec is not very clear about it.
 */
 #its-in-3d p {
-	font-size:80px;
+    font-size: 80px;
     -webkit-transform-style: preserve-3d;
-    -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
-    -ms-transform-style:     preserve-3d;
-    -o-transform-style:      preserve-3d;
-    transform-style:         preserve-3d;
+    -moz-transform-style: preserve-3d; /* Y U need this Firefox?! */
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 /*
@@ -751,75 +1029,75 @@ ul.b {
 #its-in-3d b {
     display: inline-block;
     -webkit-transform: translateZ(40px);
-    -moz-transform:    translateZ(40px);
-    -ms-transform:     translateZ(40px);
-    -o-transform:      translateZ(40px);
-     transform:        translateZ(40px);
+    -moz-transform: translateZ(40px);
+    -ms-transform: translateZ(40px);
+    -o-transform: translateZ(40px);
+    transform: translateZ(40px);
 
     -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 #its-in-3d .have {
     -webkit-transform: translateZ(-40px);
-    -moz-transform:    translateZ(-40px);
-    -ms-transform:     translateZ(-40px);
-    -o-transform:      translateZ(-40px);
-    transform:         translateZ(-40px);
+    -moz-transform: translateZ(-40px);
+    -ms-transform: translateZ(-40px);
+    -o-transform: translateZ(-40px);
+    transform: translateZ(-40px);
 }
 
 #its-in-3d .you {
     -webkit-transform: translateZ(20px);
-    -moz-transform:    translateZ(20px);
-    -ms-transform:     translateZ(20px);
-    -o-transform:      translateZ(20px);
-    transform:         translateZ(20px);
+    -moz-transform: translateZ(20px);
+    -ms-transform: translateZ(20px);
+    -o-transform: translateZ(20px);
+    transform: translateZ(20px);
 }
 
 #its-in-3d .noticed {
     -webkit-transform: translateZ(-40px);
-    -moz-transform:    translateZ(-40px);
-    -ms-transform:     translateZ(-40px);
-    -o-transform:      translateZ(-40px);
-    transform:         translateZ(-40px);
+    -moz-transform: translateZ(-40px);
+    -ms-transform: translateZ(-40px);
+    -o-transform: translateZ(-40px);
+    transform: translateZ(-40px);
 }
 
 #its-in-3d .its {
     -webkit-transform: translateZ(60px);
-    -moz-transform:    translateZ(60px);
-    -ms-transform:     translateZ(60px);
-    -o-transform:      translateZ(60px);
-    transform:         translateZ(60px);
+    -moz-transform: translateZ(60px);
+    -ms-transform: translateZ(60px);
+    -o-transform: translateZ(60px);
+    transform: translateZ(60px);
 }
 
 #its-in-3d .in {
     -webkit-transform: translateZ(-10px);
-    -moz-transform:    translateZ(-10px);
-    -ms-transform:     translateZ(-10px);
-    -o-transform:      translateZ(-10px);
-    transform:         translateZ(-10px);
+    -moz-transform: translateZ(-10px);
+    -ms-transform: translateZ(-10px);
+    -o-transform: translateZ(-10px);
+    transform: translateZ(-10px);
 }
 
 #its-in-3d .footnote {
     font-size: 32px;
 
     -webkit-transform: translateZ(-10px);
-    -moz-transform:    translateZ(-10px);
-    -ms-transform:     translateZ(-10px);
-    -o-transform:      translateZ(-10px);
-    transform:         translateZ(-10px);
+    -moz-transform: translateZ(-10px);
+    -ms-transform: translateZ(-10px);
+    -o-transform: translateZ(-10px);
+    transform: translateZ(-10px);
 }
 
 #its-in-3d.present span,
 #its-in-3d.present b {
     -webkit-transform: translateZ(0px);
-    -moz-transform:    translateZ(0px);
-    -ms-transform:     translateZ(0px);
-    -o-transform:      translateZ(0px);
-    transform:         translateZ(0px);
+    -moz-transform: translateZ(0px);
+    -ms-transform: translateZ(0px);
+    -o-transform: translateZ(0px);
+    transform: translateZ(0px);
 }
 
 /*
@@ -828,7 +1106,9 @@ ul.b {
     to be able to click on other steps.
 
 */
-#overview { display: none }
+#overview {
+    display: none
+}
 
 /*
     We also make other steps visible and give them a pointer cursor using the
@@ -838,7 +1118,6 @@ ul.b {
     opacity: 1;
     cursor: pointer;
 }
-
 
 /*
     Now, when we have all the steps styled let's give users a hint how to navigate
@@ -897,7 +1176,7 @@ ul.b {
     right: 0;
     bottom: 200px;
 
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     color: #EEE;
     text-align: center;
 
@@ -915,10 +1194,10 @@ ul.b {
         ... and position it below the bottom of the screen (relative to it's fixed position)
     */
     -webkit-transform: translateY(400px);
-    -moz-transform:    translateY(400px);
-    -ms-transform:     translateY(400px);
-    -o-transform:      translateY(400px);
-    transform:         translateY(400px);
+    -moz-transform: translateY(400px);
+    -ms-transform: translateY(400px);
+    -o-transform: translateY(400px);
+    transform: translateY(400px);
 
     /*
         Now let's imagine that the hint is visible and we want to fade it out and move out
@@ -931,16 +1210,18 @@ ul.b {
         This way user will not see the hint moving down.
     */
     -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
-    -moz-transition:    opacity 1s,    -moz-transform 0.5s 1s;
-    -ms-transition:     opacity 1s,     -ms-transform 0.5s 1s;
-    -o-transition:      opacity 1s,      -o-transform 0.5s 1s;
-    transition:         opacity 1s,         transform 0.5s 1s;
+    -moz-transition: opacity 1s, -moz-transform 0.5s 1s;
+    -ms-transition: opacity 1s, -ms-transform 0.5s 1s;
+    -o-transition: opacity 1s, -o-transform 0.5s 1s;
+    transition: opacity 1s, transform 0.5s 1s;
 }
 
 /*
     Now we 'enable' the hint when presentation is initialized ...
 */
-.impress-enabled .hint { display: block }
+.impress-enabled .hint {
+    display: block
+}
 
 /*
     ... and we will show it when the first step (with id 'bored') is active.
@@ -953,10 +1234,10 @@ ul.b {
     opacity: 1;
 
     -webkit-transform: translateY(0px);
-    -moz-transform:    translateY(0px);
-    -ms-transform:     translateY(0px);
-    -o-transform:      translateY(0px);
-    transform:         translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
 
     /*
         Now for fade in transition we have the oposite situation from the one
@@ -967,10 +1248,10 @@ ul.b {
         transition.
     */
     -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s 4.5s;
-    -moz-transition:    opacity 1s 5s,    -moz-transform 0.5s 4.5s;
-    -ms-transition:     opacity 1s 5s,     -ms-transform 0.5s 4.5s;
-    -o-transition:      opacity 1s 5s,      -o-transform 0.5s 4.5s;
-    transition:         opacity 1s 5s,         transform 0.5s 4.5s;
+    -moz-transition: opacity 1s 5s, -moz-transform 0.5s 4.5s;
+    -ms-transition: opacity 1s 5s, -ms-transform 0.5s 4.5s;
+    -o-transition: opacity 1s 5s, -o-transform 0.5s 4.5s;
+    transition: opacity 1s 5s, transform 0.5s 4.5s;
 }
 
 /*
@@ -994,8 +1275,13 @@ ul.b {
 
     So use it wisely ... or don't use at all.
 */
-.impress-enabled          { pointer-events: none }
-.impress-enabled #impress { pointer-events: auto }
+.impress-enabled {
+    pointer-events: none
+}
+
+.impress-enabled #impress {
+    pointer-events: auto
+}
 
 /*
     There is one funny thing I just realized.
