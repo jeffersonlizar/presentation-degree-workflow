@@ -376,41 +376,41 @@ ul.b {
     list-style-type: square;
 }
 
-#bases-teoricas2 .container ul.b {
+#bases-teoricas2 .container ul.b ,#bases-teoricas2-1 .container ul.b , #bases-teoricas2-2 .container ul.b , #bases-teoricas2-3 .container ul.b {
     margin-left: 60px;
     list-style-type: circle;
     font-size: 35px;
 }
 
-#bases-teoricas2 .imagen {
+#bases-teoricas2 .imagen, #bases-teoricas2-1 .imagen, #bases-teoricas2-2 .imagen, #bases-teoricas2-3 .imagen {
     text-align: center;
 }
 
-#bases-teoricas2 .imagen img{
+#bases-teoricas2 .imagen img, #bases-teoricas2-1 .imagen img{
     width: 400px;
     height: 200px;
 }
 
-#bases-teoricas3 .bases-titulo {
+#bases-teoricas3 .bases-titulo, #bases-teoricas2-2 .bases-titulo, #bases-teoricas2-3 .bases-titulo  {
     margin-top: 0px;
 }
 
-#bases-teoricas3 .titulo {
+#bases-teoricas3 .titulo, #bases-teoricas2-2 .titulo, #bases-teoricas2-3 .titulo {
     font-size: 35px;
 }
 
-#bases-teoricas3 img {
+#bases-teoricas3 img, #bases-teoricas2-2 img, #bases-teoricas2-3 img {
     width: 350px;
     height: 270px;
 }
 
-#bases-teoricas3 .container .right2 {
+#bases-teoricas3 .container .right2, #bases-teoricas2-2 .container .right2 {
     top: 90px;
     left: 185px;
     position: relative;
 }
 
-#bases-teoricas3 .align-center {
+#bases-teoricas3 .align-center, #bases-teoricas2-2 .align-center {
     text-align: center;
 }
 
