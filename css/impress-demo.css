@@ -287,7 +287,7 @@ a:focus {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 116%;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
     right: 68px;
 }
@@ -312,7 +312,8 @@ a:focus {
 }
 
 .antecedentes-titulo {
-    margin-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 50px;
     padding-bottom: 20px;
     text-align: center;
     text-decoration: underline;
@@ -355,7 +356,6 @@ a:focus {
     overflow: hidden;
 }
 
-​​
 .bases .lista ul {
     list-style-type: circle;
 }
@@ -522,11 +522,8 @@ ul.b {
 }
 
 #metodologia1 .referencia1 {
-    width: 400px;
-    position: relative;
-    top: 0px;
     float: right;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 #metodologia1 .referencia2 {
@@ -545,10 +542,6 @@ ul.b {
 #metodologia1 .imagen img {
     width: 400px;
     height: 300px;
-    position: relative;
-    top: -300px;
-    right: 60px;
-
 }
 
 #metodologia2 .imagen img {
@@ -574,7 +567,7 @@ ul.b {
     font-size: 25px;
 }
 
-#metodologia3 .titulo {
+#metodologia3 .titulo, #indicadores .titulo {
     text-align: center;
     margin-top: -10px;
     margin-bottom: 15px;
@@ -582,11 +575,11 @@ ul.b {
     font-size: 40px;
 }
 
-#metodologia3 ol.b li {
+#metodologia3 ol.b li, #indicadores ol.b li {
     line-height: 45px;
 }
 
-#capas .titulo, #arquitectura .titulo, #clases .titulo, #diagramabd1 .titulo, #diagramabd2 .titulo , #implementacion .titulo {
+#capas .titulo, #arquitectura .titulo, #clases .titulo, #diagramabd1 .titulo, #diagramabd2 .titulo, #diagramabd3 .titulo , #implementacion .titulo {
     text-align: center;
     margin-top: -10px;
     margin-bottom: 15px;
@@ -594,11 +587,11 @@ ul.b {
     font-size: 40px;
 }
 
-#capas .imagen, #arquitectura .imagen, #clases .imagen, #diagramabd1 .imagen, #diagramabd2 .imagen , #implementacion .imagen, #sistema .imagen, #conclusiones .imagen  {
+#capas .imagen, #arquitectura .imagen, #clases .imagen, #diagramabd1 .imagen, #diagramabd2 .imagen, #diagramabd3 .imagen , #implementacion .imagen, #sistema .imagen, #conclusiones .imagen  {
     text-align: center;
 }
 
-#capas .imagen img, #arquitectura .imagen img, #clases .imagen img, #diagramabd1 .imagen img, #diagramabd2 .imagen img{
+#capas .imagen img, #arquitectura .imagen img, #clases .imagen img, #diagramabd1 .imagen img, #diagramabd2 .imagen img, #diagramabd3 .imagen img{
     width: 900px;
     height: 600px;
     position: relative;
@@ -612,7 +605,7 @@ ul.b {
     right: 52px;
 }
 
-#diagramabd1 .referencia, #diagramabd2 .referencia, #implementacion .referencia {
+#diagramabd1 .referencia, #diagramabd2 .referencia, #diagramabd3 .referencia, #implementacion .referencia {
     text-align: center;
     font-size: 25px;
 }
@@ -651,7 +644,7 @@ ul.b {
 }
 
 #recomendaciones ul.b li {
-    line-height: 40px;
+    line-height: 80px;
 }
 /*-------------------------------------------------*/
 
